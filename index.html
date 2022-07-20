@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class = 'grid-area-head'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" type="image/x-icon" href="img/favicon.jpeg">
+    <title>pH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+
+    <!--Sección de navegación-->    
+
+    <nav class="navbar navbar-expand-lg" id = 'nav'>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/productos/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/pedidos/pedidos.html">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto/contacto.html">Contacto</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Sección de header: logo que tiene vinculado al index-->
+    
+    <header>
+        <a href="index.html">
+            <img src="img/ph.jpeg" alt="Logo de Proyecto Heráclito" >
+        </a>
+    </header>
+    <main>
+        <!--Sección main: Inicio. Tiene contenido de la panadería dividido en articles dentro de una section-->
+        
+        <h1 class = 'titulo'>    
+            Inicio
+        </h1>
+        <section id = 'section-flex'>
+            <!--Artículo 1: Se divide en dos contenedores div: uno para el texto y otro para la imagen. Esto permitirá mejorar la performance de flexbox-->  
+            <div class="card mb-3" style="max-width: 100%;" id = 'articulo-card'>
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/microflora_masa_madre.PNG" class="img-fluid rounded-start" alt="Microflora de la masa madre" >
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">¿QUÉ ES LA <strong>MASA MADRE</strong>?</h2>
+                            <p>
+                                Hasta hace dos siglos, que empezaron a estar disponibles comercialmente las levaduras más puras, prácticamente todo el pan se elaboraba con masa madre.
+                                La masa madre es un cultivo de simplemente harina, agua y tiempo. A esta mezcla fermentada, la usaremos a modo de “levadura” para hacer pan.
+                                Dentro de la masa madre encontramos múltiples microorganismos; siendo los más relevantes de este proceso, las <em>levaduras</em> y las <em>bacterias acido lácticas</em>. Estos logran entre sí, un equilibrio de convivencia, de manera que ambas poblaciones pueden sobrevivir y desarrollarse a la temperatura adecuada.
+                            </p>
+                            <p> 
+                                Las levaduras (por ejemplo, <em>Saccharomyces Cerevisiae</em>) producen principalmente dióxido de carbono y alcohol.
+                            </p>
+                            <p>
+                                Las bacterias ácido lácticas (por ejemplo, <em>BAL Delbrueckii Bulgaricus </em> de forma cilíndrica alargada) le aportan acidez y otros aromas característicos [1].
+                            </p>
+                            <p>
+                                Esta combinación de microorganismos (microflora de una masa madre) es la que permitirá que el pan leve, tenga rico sabor, forme una miga aireada y una buena corteza [2]. 
+                                Justamente todo lo que buscamos en este tipo de panes y que son capaces de ver en al menos nuestras publicaciones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                      
+          <!--Artículo 2: Se divide en dos contenedores div: uno para el texto y otro para la imagen. Esto permitirá mejorar la performance de flexbox-->  
+    
+            <div class="card mb-3" style="max-width: 100%;" id = 'articulo-card'>
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/masa_madre_1.PNG" class="img-fluid rounded-start"alt="Tarro de masa madre">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">¿POR QUÉ USAMOS MASA MADRE EN LUGAR DE LEVADURA INDUSTRIAL? ¿QUÉ DIFERENCIAS TIENEN?
+                            </h2>
+                            <p>
+                                Hasta hace dos siglos, que empezaron a estar disponibles comercialmente las levaduras más puras, prácticamente todo el pan se elaboraba con masa madre.
+                                La masa madre es un cultivo de simplemente harina, agua y tiempo. A esta mezcla fermentada, la usaremos a modo de “levadura” para hacer pan.
+                                Dentro de la masa madre encontramos múltiples microorganismos; siendo los más relevantes de este proceso, las <em>levaduras</em> y las <em>bacterias acido lácticas</em>. Estos logran entre sí, un equilibrio de convivencia, de manera que ambas poblaciones pueden sobrevivir y desarrollarse a la temperatura adecuada.
+                            </p>
+                            <p> 
+                                Las levaduras (por ejemplo, <em>Saccharomyces Cerevisiae</em>) producen principalmente dióxido de carbono y alcohol.
+                            </p>
+                            <p>
+                                Las bacterias ácido lácticas (por ejemplo, <em>BAL Delbrueckii Bulgaricus </em> de forma cilíndrica alargada) le aportan acidez y otros aromas característicos [1].
+                            </p>
+                            <p>
+                                Esta combinación de microorganismos (microflora de una masa madre) es la que permitirá que el pan leve, tenga rico sabor, forme una miga aireada y una buena corteza [2]. 
+                                Justamente todo lo que buscamos en este tipo de panes y que son capaces de ver en al menos nuestras publicaciones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Artículo 3: Se divide en dos contenedores div: uno para el texto y otro para la imagen. Esto permitirá mejorar la performance de flexbox-->  
+          
+        <div class="card mb-3" style="max-width: 100%;" id = 'articulo-card'>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/masa_madre_2.PNG" class="img-fluid rounded-start"alt="Tarro de masa madre">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">¿CUÁLES SON LOS BENEFICIOS DE UTILIZAR MASA MADRE? ¿Y LOS DE LA FERMENTACIÓN LARGA?
+                
+                        </h2>
+                        <p>
+                            Los alimentos fermentados son muy nutritivos y fáciles de digerir. Mediante la fermentación se predigieren los alimentos (sustancias complejas se transforman en otras más simples), y esto aumenta la cantidad de sus nutrientes que podemos aprovechar; además, en muchos casos, se generan nutrientes y compuestos aromáticos adicionales o se eliminan antinutrientes (sustancias que inhiben la absorción de otras que son benéficas) o toxinas [1].
+                        </p> 
+                        <p> 
+                            Aunque no todos los tipos de pan necesitan ni tienen por qué beneficiarse de la presencia de una masa madre, su uso correcto acarrea importantes beneficios que se derivan de la maduración lenta y gradual que se produce durante la fermentación de aquella, que por lo general dura entre 6 y 18 hs. [3].
+                        </p>
+                        <p>
+                            Los más relevantes son:
+                        </p>
+                        <ol>
+                            <li>
+                                La predigestión de los nutrientes, que adquieren formas más accesibles y biodisponibles, como se mencionó anteriormente.
+                            </li>
+                            <li>
+                                La estructura de la masa se refuerza: una característica de los fermentos es el desarrollo de acidez, producto del ácido láctico generado en la fermentación, y esa acidez le otorga tenacidad a la estructura de gluten.
+                            </li>
+                            <li>
+                                Mejora la duración del pan: según baja el pH del pan (aumenta su acidez), se produce un aumento proporcional en su capacidad de permanecer fresco.
+                            </li>
+                            <li>
+                                Los panes consiguen un sabor superior: suelen poseer un sutil aroma a trigo o robusto sabor a centeno, según el caso, un toque ácido y un regusto prolongado [3].
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!--Artículo 4: Se divide en dos contenedores div: uno para el texto y otro para la imagen. Esto permitirá mejorar la performance de flexbox-->  
+        <div class="card mb-3" style="max-width: 100%;" id = 'articulo-card'>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/balanza.PNG" class="img-fluid rounded-start" alt="Porcentaje panadero">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">PORCENTAJE PANADERO: EL PORCENTAJE QUE NO SUMA 100
+                
+                        </h2>
+                        <p>
+                            Si se han detenido a leer las tarjetas de nuestros panes, quizás observaron que en la descripción de los ingredientes que lo componen, la suma total de los porcentajes de cada uno no es 100. Pero, ¿cómo? (Quédense tranquilos que nuestra calculadora funciona bien)
+                            Así es, estos porcentajes no suman 100, y está bien así.
+                        </p>
+                        <p>
+                            Están expresados en lo que en panadería se conoce como <strong>porcentaje panadero</strong>. Y a continuación les vamos a contar de qué se trata así pueden entender nuestras etiquetas.
+                            El peso total de la harina a utilizar constituye el valor de referencia de la receta del cual dependen todos los otros ingredientes. Eso quiere decir que desde ahora se transforma en el 100% y los demás elementos varían y están determinados en función de él.
+                            En otras palabras, cada ingrediente de la fórmula se expresa como un porcentaje del peso de la harina (no del total), y el peso de la harina siempre se expresa como el 100%.
+                            Por ejemplo, 500 g de harina es el 100%. Si la receta indica “agua 70%”, quiere decir que el peso del agua de esa receta es el 70% del peso de la harina, en este caso 500 g x 0,7 = 350 g de agua [2].
+                        </p>
+                        <p>
+                            Las ventajas del uso de este porcentaje se pueden resumir en los siguientes puntos:
+                        </p>
+                        <ol>
+                            <li>
+                                Los porcentajes son fáciles de recordar, y por lo tanto también las recetas.
+                            </li>
+                            <li>
+                                Permite comparar las diversas harinas disponibles en el mercado en base a sus características (fuerza, absorción de agua, etcétera).
+                            </li>
+                            <li>
+                                Si se necesita variar la cantidad de masa total, ajustando la cantidad de harina, sale de forma directa cuánto del resto de los ingredientes deben utilizarse.
+                            </li>
+                            <li>
+                                Permite modificar el porcentaje de alguno de los ingredientes independientemente del de los otros, sin ser necesario recalcular todos los porcentajes.
+                            </li>
+                        </ol>
+                </div>
+            </div>
+        </div>
+
+
+
+        </section>
+        <!--Sección de bibliografía-->  
+
+        <section id = 'bibliografia'>
+            <article>
+                <div>
+                    <h2 id = 'titulo'>Bibliografía</h2>
+                    <ul>
+                        <li>
+                            [1] “El arte de la fermentación” – Sandor Katz
+                        </li>
+                        <li>
+                            [2] “Masa madre” – Ramón Garriga, Mariana Koppmann
+                        </li>
+                        <li>
+                            [3] “El Pan” – Jefrey Hamelman
+                
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!--Termina el main y arranca el footer con las redes-->  
+
+
+    <footer>
+    <h2> Nuestras redes </h2>
+    
+    <a href="https://www.instagram.com/proyecto.heraclito/" target = "_blank"> <img src="img/instagram.png" alt="Instagram Proyecto heráclito"></a>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>

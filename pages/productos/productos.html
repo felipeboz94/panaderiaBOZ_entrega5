@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pH</title>
+    <link rel="favicon" type="image/x-icon" href="img/favicon.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style3.css">
+</head>
+<body>
+
+    <!--Sección de navegación-->    
+
+    <nav class="navbar navbar-expand-lg" id = 'nav'>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../productos/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pedidos/pedidos.html">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../nosotros/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Sección de header: logo que tiene vinculado al index-->
+     
+    <header>
+        <a href="../../index.html">
+            <img src="../../img/ph.jpeg" alt="Logo de Proyecto Heráclito">
+        </a>    
+    </header>
+
+    <main>
+        <!--Sección main: Productos. Tiene contenido de la panadería de los productos en articles dentro de una section-->
+         
+        <h1 class = 'titulo'>    
+            Productos
+        </h1>
+        <!--Sección de panes-->
+        <section class = 'w-99'>
+            <!--Artículo 1: Se divide en dos contenedores div: uno para el texto y otro para la imagen. Esto permitirá mejorar la performance de flexbox-->  
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                  <div class="card h-100" id = 'color-card'>
+                    <img src="../../img/hogaza_tradicional.PNG" alt="Hogaza tradicional de masa madre" class="card-img-top" >
+                    <div class="card-body">
+                        <h2 class="card-title">HOGAZA RÚSTICA TRADICIONAL</h2>
+                        <ul class = "card-text">
+                            <li>
+                                Harina de trigo integral
+                            </li>
+                            <li>
+                                Harina de trigo 000
+                            </li>
+                            <li>
+                                Agua 
+                            </li>
+                            <li>
+                                Sal
+                            </li>
+                        </ul>   
+                        <p class = 'card-text'>
+                            Peso: 1 kg. Gran esponjosidad aportada por la harina 000, y acidez por la harina integral. Masa madre elaborada a partir de harina integral.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" id = 'color-card'>
+                      <img src="../../img/hogaza_semillas.PNG" class="card-img-top" alt="Hogaza integral de masa madre con mix de semillas">
+                      <div class="card-body">
+                        <h2 class="card-title">HOGAZA 100% INTEGRAL Y MIX DE SEMILLAS</h2>
+                        <ul class = 'card-text'>
+                            <li>
+                                Harina de trigo integral
+                            </li>
+                            <li>
+                                Semillas de girasol
+                            </li>
+                            <li>
+                                Semillas de zapallo
+                            </li>
+                            <li>
+                                Semillas de lino
+                            </li>
+                            <li>
+                                Semillas de chía
+                            </li>
+    
+                            <li>
+                                Agua 
+                            </li>
+                            <li>
+                                Sal
+                            </li>
+                        </ul>    
+                        <p class = 'card-text'>
+                            Peso: 1 kg. La harina integral le aporta acidez y densidad. La gran cantidad de semillas le aportan gran cantidad de nutrientes, sabor y texturas. Masa madre elaborada a partir de harina integral.
+                        </p>
+                    </div>
+                    </div>
+                  </div>
+                <div class="col">
+                  <div class="card h-100" id = 'color-card'>
+                    <img src="../../img/molde_centeno.PNG" class="card-img-top" alt="Pan de molde de centeno">
+                    <div class="card-body">
+                      <h2 class="card-title">PAN DE MOLDE 100% CENTENO Y MIEL</h2>
+                      <ul class="card-text">
+                        <li>
+                            Harina de centeno
+                        </li>
+                        <li>
+                            Miel
+                        </li>
+
+                        <li>
+                            Agua 
+                        </li>
+                        <li>
+                            Sal
+                        </li>
+                    </ul>    
+                    <p class="card-text">
+                        Peso: 1 kg. El centeno y la miel aportan el sabor dulce y denso, y a su vez la gran hidratación le da una humedad muy característica. La masa madre es de harina de centeno.
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100" id = 'color-card'>
+                    <img src="../../img/molde_frutos_secos.PNG" class="card-img-top" alt="Pan de molde integral, centeno y frutos secos">
+                    <div class="card-body">
+                      <h2 class="card-title">PAN DE MOLDE DE INTEGRAL, CENTENO Y FRUTOS SECOS</h2>
+                      <ul class="card-text">
+                        <li>
+                            Harina de centeno
+                        </li>
+                        <li>
+                            Harina de centeno
+                        </li>
+                        <li>
+                            Pasas de uva negras
+                        </li>
+                        <li>
+                            Pasas de uva rubias
+                        </li>
+                        <li>
+                            Nueces
+                        </li>
+                        <li>
+                            Maníes
+                        </li>
+                        <li>
+                            Castañas de cajú
+                        </li>
+                        <li>
+                            Almendras
+                        </li>
+                        <li>
+                            Agua 
+                        </li>
+                        <li>
+                            Sal
+                        </li>
+                    </ul> 
+                    <p class="card-text">
+                        Peso: 1 kg. La harina integral le aporta gran acidez y densidad. El centeno aporta su sabor dulce y los frutos secos tropezones crocantes y nutrientes muy importantes. Las pasas de uva contrarrestan la acidez del pan. La masa madre es de harina de integral.
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+              <div class="card mb-3" style="max-width: 100%;" id = 'articulo-card'>
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../../img/pizza.PNG" class="img-fluid rounded-start" alt="Prepizza de masa madre" >
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">PRE-PIZZAS DE MASA MADRE</h2>
+                            <ul class="card-text">
+                                <li>
+                                    Harina de trigo 000
+                                </li>
+                                <li>
+                                    Agua
+                                </li>
+                                <li>
+                                    Sal
+                                </li>
+                            </ul>
+                            <p class="card-text">
+                                Tienen un diámetro aproximado de 24 cm, pero viene cargada del sabor y aroma característico de una masa madre de harina de trigo 000, priorizando mucho aire en los bordes (como bien se le dice en Italia el "cornicione") y una base delgada. 
+                                La fermentación en frío por más de doce horas trae los beneficios que se han hablado en publicaciones anteriores y le da una crocantez que no se ve en las prepizzas usuales. La masa madre es de harina de trigo 000, y se usa un pequeño porcentaje de levadura instantánea.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Termina el main y arranca el footer con las redes-->  
+
+    <footer>
+        <h2> Nuestras redes </h2>
+        <a href="https://www.instagram.com/proyecto.heraclito/" target = "_blank"> <img src="../../img/instagram.png" alt="Instagram Proyecto heráclito"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   
+</body>
+</html>
